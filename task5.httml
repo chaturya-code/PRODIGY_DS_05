@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Traffic Accident Analysis</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Traffic Accident Analysis</h1>
+  <h2>Accident Data</h2>
+  <table>
+    <tr>
+      <th>Location</th>
+      <th>Road Condition</th>
+      <th>Weather</th>
+      <th>Time of Day</th>
+      <th>Accident Count</th>
+    </tr>
+    <tr>
+      <td>Intersection 1</td>
+      <td>Dry</td>
+      <td>Sunny</td>
+      <td>Morning</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Intersection 2</td>
+      <td>Wet</td>
+      <td>Rainy</td>
+      <td>Afternoon</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Intersection 3</td>
+      <td>Icy</td>
+      <td>Cloudy</td>
+      <td>Evening</td>
+      <td>2</td>
+    </tr>
+    <!-- Add more data rows here -->
+  </table>
+  <h2>Accident Hotspots</h2>
+  <table>
+    <tr>
+      <th>Location</th>
+      <th>Accident Count</th>
+    </tr>
+    <tr>
+      <td>Intersection 1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Intersection 2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Intersection 3</td>
+      <td>2</td>
+    </tr>
+    <!-- Add more data rows here -->
+  </table>
+  <h2>Contributing Factors</h2>
+  <table>
+    <tr>
+      <th>Road Condition</th>
+      <th>Accident Count</th>
+    </tr>
+    <tr>
+      <td>Dry</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Wet</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Icy</td>
+      <td>3</td>
+    </tr>
+    <!-- Add more data rows here -->
+  </table>
+  <h2>Weather Conditions</h2>
+  <table>
+    <tr>
+      <th>Weather</th>
+      <th>Accident Count</th>
+    </tr>
+    <tr>
+      <td>Sunny</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Rainy</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Cloudy</td>
+      <td>3</td>
+    </tr>
+    <!-- Add more data rows here -->
+  </table>
+  <h2>Time of Day</h2>
+  <table>
+    <tr>
+      <th>Time of Day</th>
+      <th>Accident Count</th>
+    </tr>
+    <tr>
+      <td>Morning</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Afternoon</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Evening</td>
+      <td>3</td>
+    </tr>
+    <!-- Add more data rows here -->
+  </table>
+</body>
+</html>
+
